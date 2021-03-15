@@ -1,121 +1,218 @@
-<html>
+<!--<html>
+
 <head>
-<meta name="registration" content="width=device-width,initial-scale=1">
-<style>
-body
-
-.center{
-  margin: auto;
-  width: 60%;
-  border: 3px solid #73AD21;
-  padding: 10px;
-}
-
-{
-font-family:Arial;
-background-color:black;
-}
-
-
-
-.container
-{
-padding:16px;
-background-color:white;
-}
-
-input[type=text]: focus,input[type=password]
-{
-width:50%;
-padding:15px;
-margin: 5px 0 22px 0;
-display:inline-block;
-border:none;
-background:#f1f1f1;
-}
-
-input[type=text]:focus,input[type=password]:focus
-{
-background-color:#ddd;
-outline:none;
-}
-
-hr
-{
-border:1px solid #f1f1f1;
-margin-bottom:25px;
-}
-
-.registerbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 50%;
-  opacity: 0.9;
-}
-
-.registerbtn:hover {
-  opacity: 1;
-}
-
-
-a {
-  color: dodgerblue;
-}
-
-
-.signin {
-  background-color: #f1f1f1;
-  text-align: center;
-}
-
-.hero-image
-{
-background-image:url("images4.jfif");
-background-color:blue;
-height:741px;
-background-position:center;
-background-repeat:no-repeat;
-background-size: cover;
-position:relative;
-}
-</style>
+    <meta name="registration" content="width=device-width,initial-scale=1">
+    <style>
+        body .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #73AD21;
+            padding: 10px;
+        }
+        
+        .container {
+            padding: 16px;
+            background-color: white;
+        }
+        
+        input[type=text]:focus,
+        input[type=password] {
+            width: 50%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+        
+        .registerbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+            opacity: 0.9;
+        }
+        
+        .registerbtn:hover {
+            opacity: 1;
+        }
+        
+        a {
+            color: dodgerblue;
+        }
+        
+        .signin {
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+        
+        .hero-image {
+            background-image: url("images4.jfif");
+            background-color: blue;
+            height: 741px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
 
 
 </head>
+
 <body>
-<div class="hero-image">
+    <div class="hero-image">
 
 
-<div class="center">
-<form action="/action_page.php">
-  <div class="container">
-    <h1>Register</h1>
-    <p>Please fill in the details to create an account.</p>
-    <hr>
+        <div class="center">
+            <form action="/action_page.php">
+                <div class="container">
+                    <h1>Register</h1>
+                    <p>Please fill in the details to create an account.</p>
+                    <hr>
 
-    <label for="Name"><b>Name</b></label>
-    <input type="text" placeholder="Enter name" name="name" id="name" required><br>
+                    <label for="Name"><b>Name</b></label>
+                    <input type="text" placeholder="Enter name" name="name" id="name" required><br>
 
-    <label for="Username"><b>Username</b></label>
-    <input type="username" placeholder="Enter username" name="username" id="username" required><br>
-    <label for="Password"><b> Password</b></label>
-    <input type="password" placeholder=" Password" name="password" id="password" required><br>
-    <hr>
-    <p>By creating an account you can save all achievements </p>	
+                    <label for="Username"><b>Username</b></label>
+                    <input type="username" placeholder="Enter username" name="username" id="username" required><br>
+                    <label for="Password"><b> Password</b></label>
+                    <input type="password" placeholder=" Password" name="password" id="password" required><br>
+                    <hr>
+                    <p>By creating an account you can save all achievements </p>
 
-<button type="submit" class="registerbtn">Register </button>
-  </div>
-  
-  <div class="container signin">
-    <p>Already have an account?  <a href="firstpg.html">BACK</a></p>
-  </div>
-</div>
+                    <button type="submit" class="registerbtn">Register </button>
+                </div>
 
-</div>
-</form>
+                <div class="container signin">
+                    <p>Already have an account? <a href="firstpg.html">BACK</a></p>
+                </div>
+        </div>
+
+    </div>
+    </form>
 </body>
+
+</html>-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration page</title>
+
+</head>
+<style>
+    body {
+        background-image: url(giphy.gif);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    h1 {
+        font-weight: 900px;
+    }
+    
+    div.transbox {
+        margin-top: 100px;
+        margin-left: 35%;
+        width: fit-content;
+        background-color: cyan;
+        border: 5px solid;
+        opacity: 0.6;
+        border-color: rgb(4, 4, 255);
+        border-radius: 8px;
+        padding: 30px;
+    }
+    
+    div.transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+</style>
+
+<body>
+
+    <div class="transbox">
+        <center>
+            <b>
+            <h1> Get Yourself Registered</h1>  
+           </b>
+        </center>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <font color=blue size=4>
+            <form>
+                <table border=8 align=center>
+
+                    <tr>
+                        <td>
+                            <label for="email"><b>Email</b></label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Enter Email" name="email" id="email" required></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="uname"><b>Username</b></label>
+                        </td>
+                        <td>
+
+                            <input type="username" placeholder="Enter Username" name="uname" id="uname" required>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="psw"><b>Password</b></label>
+                        </td>
+                        <td>
+                            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="psw-repeat"><b>Repeat Password</b></label>
+
+                        </td>
+                        <td>
+                            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+                        </td>
+                    </tr>
+
+
+        </font>
+
+        </table>
+        <center>
+            <br>
+            <button border=9px>submit</button>
+            <button border=9px>Reset</button>
+
+        </center>
+        </form>
+
+    </div>
+
+</body>
+
 </html>
