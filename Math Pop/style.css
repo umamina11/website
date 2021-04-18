@@ -50,7 +50,26 @@ nav a {
     color: black;
 }
 
+nav button {
+    font-size: 200%;
+    margin-top: 3px;
+    font-family: 'Luckiest Guy', cursive;
+    float: left;
+    padding: 0 15px;
+    color: rgb(0, 0, 0);
+    background: red;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);
+}
+
 .current a::after {
+    content: '-';
+    font-size: 4px;
+    background-color: white;
+    display: block;
+}
+
+.current button::after {
     content: '-';
     font-size: 4px;
     background-color: white;
@@ -90,7 +109,6 @@ nav a {
     text-align: center;
     margin-top: 10px;
     background-color: #FE4A49;
-    ;
     color: #fff;
     transition: 1s;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);
