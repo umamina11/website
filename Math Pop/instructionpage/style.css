@@ -147,3 +147,35 @@
     border-radius: 7px;
     padding: 3px;
 }
+@media(max-width:768px) {
+    .nav h2 {
+        font-size: 1.5rem;
+        float: none;
+        text-align: center;
+    }
+    
+    nav {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav li {
+        font-size: 1rem;
+    }
+}
+@media(max-width:480px) {
+    .nav h2 {
+        float: none;
+        text-align: center;
+    }
+    
+    .equation h1 {
+        display: inline;
+        padding: 10px;
+    }
+    
+    nav li {
+        font-size: .8rem;
+    }
+}
