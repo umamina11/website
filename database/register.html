@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+    body {
+        background-image: url('..img/giphy.gif');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    h1 {
+        font-weight: 900px;
+    }
+    
+    div.transbox {
+        margin-top: 100px;
+        margin-left: 35%;
+        width: fit-content;
+        background-color: rgb(147, 247, 247);
+        border: 5px solid;
+        opacity: 0.6;
+        border-color: rgb(11, 12, 11);
+        border-radius: 8px;
+        padding: 30px;
+    }
+    
+    div.transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+    }
+</style>
+</head>
+
+<body>
+  <form action="connect.jsp" method="post">
+    <div class="transbox">
+        <center>
+            <h1> Get Yourself Registered</h1>  
+            
+        </center>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <font color=blue size=4>
+            
+                <table border=8 align=center>
+
+                    <tr>
+                        <td>
+                            <label for="email"><b>Email</b></label>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="Enter Email" name="email" id="email" required></td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="uname"><b>Username</b></label>
+                        </td>
+                        <td>
+
+                            <input type="username" placeholder="Enter Username" name="uname" id="uname" required>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="psw"><b>Password</b></label>
+                        </td>
+                        <td>
+                            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="psw-repeat"><b>Repeat Password</b></label>
+
+                        </td>
+                        <td>
+                            <input type="password" placeholder="Repeat Password" name="pswrepeat" id="pswrepeat" required>
+
+                        </td>
+                    </tr>
+
+        
+        </font> 
+   
+        </table>
+        <center>
+            <br>
+            <button border=9px>submit</button>
+            <button border=9px>Reset</button>
+
+        </center>
+       
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+
+    
